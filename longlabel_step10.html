@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- 퍼블리싱을 위한 include js -->
+    <script src="./js/include.js"></script>
+    <script src="./js/lnb.js"></script>
+    <script src="./js/stepPage.js" defer></script>
+
+</head>
+<body>
+
+    <div class="root">
+        <div data-include-path="./compo_lnb.html"></div>
+        
+        <div class="section-contents">
+            <div class="pageTit" style="margin-bottom: 40px;">
+                <h1>Long Label 추가</h1>
+                <div class="btnWrap">
+                    <button class="preview" onclick="previewOpen()">미리보기</button>
+                    <button class="btn-fill" onclick="confirm()">저장하기</button>
+                </div>
+            </div>
+
+            <div class="stepProcess">
+                <div class="line"></div>
+                <div class="item">
+                    <div class="circle"></div>
+                    <div class="step">STEP 01</div>
+                    <div class="name">기본정보</div>
+                    <div class="state">32% 작성중</div>
+                </div>
+                <div class="item">
+                    <div class="circle"></div>
+                    <div class="step">STEP 02</div>
+                    <div class="name">소재</div>
+                    <div class="state">32% 작성중</div>
+                </div>
+                <div class="item">
+                    <div class="circle"></div>
+                    <div class="step">STEP 03</div>
+                    <div class="name">제조</div>
+                    <div class="state">작성전</div>
+                </div>
+                <div class="item">
+                    <div class="circle"></div>
+                    <div class="step">STEP 04</div>
+                    <div class="name">여정</div>
+                    <div class="state">작성전</div>
+                </div>
+                <div class="item">
+                    <div class="circle"></div>
+                    <div class="step">STEP 05</div>
+                    <div class="name">패키지</div>
+                    <div class="state">작성전</div>
+                </div>
+                <div class="item">
+                    <div class="circle"></div>
+                    <div class="step">STEP 06</div>
+                    <div class="name">폐기</div>
+                    <div class="state">작성전</div>
+                </div>
+                <div class="item">
+                    <div class="circle"></div>
+                    <div class="step">STEP 07</div>
+                    <div class="name">인증마크</div>
+                    <div class="state">작성전</div>
+                </div>
+                <div class="item">
+                    <div class="circle"></div>
+                    <div class="step">STEP 08</div>
+                    <div class="name">키워드</div>
+                    <div class="state">작성전</div>
+                </div>
+                <div class="item">
+                    <div class="circle"></div>
+                    <div class="step">STEP 09</div>
+                    <div class="name">안내 및 홍보</div>
+                    <div class="state">작성전</div>
+                </div>
+                <div class="item ac">
+                    <div class="circle"></div>
+                    <div class="step">STEP 10</div>
+                    <div class="name">케어가이드</div>
+                    <div class="state">0% 작성중</div>
+                </div>
+                <div class="item">
+                    <div class="circle"></div>
+                    <div class="step">STEP 11</div>
+                    <div class="name">공개 설정</div>
+                    <div class="state">작성전</div>
+                </div>
+            </div>
+
+            <div class="dualSection">
+                <div class="guideWord">
+                    <b>
+                        소비자들이 이 제품을<br>
+                        더 잘 사용할 수 있도록<br>
+                        관리 팁을 알려주세요.<br>
+                    </b>
+                    기존 케어라벨과<br>
+                    비슷한 정보에요
+                </div>
+                <div class="rightSection">
+
+                    <div class="tray">
+                        <span>물세탁</span>
+                        <div class="imgList wash">
+                            <label class="item"><input type="radio" name="wash" checked><div class="img"></div></label>
+                            <label class="item"><input type="radio" name="wash"><div class="img"></div></label>
+                            <label class="item"><input type="radio" name="wash"><div class="img"></div></label>
+                            <label class="item"><input type="radio" name="wash"><div class="img"></div></label>
+                            <label class="item"><input type="radio" name="wash"><div class="img"></div></label>
+                            <label class="item"><input type="radio" name="wash"><div class="img"></div></label>
+                        </div>
+                    </div>
+
+                    <div class="tray">
+                        <span>산소, 염소, 표백</span>
+                        <div class="imgList bleanch">
+                            <label class="item"><input type="radio" name="bleach" checked><div class="img"></div></label>
+                            <label class="item"><input type="radio" name="bleach"><div class="img"></div></label>
+                            <label class="item"><input type="radio" name="bleach"><div class="img"></div></label>
+                            <label class="item"><input type="radio" name="bleach"><div class="img"></div></label>
+                            <label class="item"><input type="radio" name="bleach"><div class="img"></div></label>
+                            <label class="item"><input type="radio" name="bleach"><div class="img"></div></label>
+                        </div>
+                    </div>
+                      
+                    <div class="tray">
+                        <span>다림질</span>
+                        <div class="imgList ironing">
+                            <label class="item"><input type="radio" name="ironing" checked><div class="img"></div></label>
+                            <label class="item"><input type="radio" name="ironing"><div class="img"></div></label>
+                            <label class="item"><input type="radio" name="ironing"><div class="img"></div></label>
+                            <label class="item"><input type="radio" name="ironing"><div class="img"></div></label>
+                            <label class="item"><input type="radio" name="ironing"><div class="img"></div></label>
+                            <label class="item"><input type="radio" name="ironing"><div class="img"></div></label>
+                            <label class="item"><input type="radio" name="ironing"><div class="img"></div></label>
+                        </div>
+                    </div>
+
+                    <div class="tray">
+                        <span>드라이</span>
+                        <div class="imgList dry">
+                            <label class="item"><input type="radio" name="dry" checked><div class="img"></div></label>
+                            <label class="item"><input type="radio" name="dry"><div class="img"></div></label>
+                            <label class="item"><input type="radio" name="dry"><div class="img"></div></label>
+                            <label class="item"><input type="radio" name="dry"><div class="img"></div></label>
+                            <label class="item"><input type="radio" name="dry"><div class="img"></div></label>
+                        </div>
+                    </div>
+                      
+                    <div class="tray">
+                        <span>건조</span>
+                        <div class="imgList meagre">
+                            <label class="item"><input type="radio" name="meagre" checked><div class="img"></div></label>
+                            <label class="item"><input type="radio" name="meagre"><div class="img"></div></label>
+                            <label class="item"><input type="radio" name="meagre"><div class="img"></div></label>
+                            <label class="item"><input type="radio" name="meagre"><div class="img"></div></label>
+                            <label class="item"><input type="radio" name="meagre"><div class="img"></div></label>
+                            <label class="item"><input type="radio" name="meagre"><div class="img"></div></label>
+                            <label class="item"><input type="radio" name="meagre"><div class="img"></div></label>
+                            <label class="item"><input type="radio" name="meagre"><div class="img"></div></label>
+                        </div>
+                    </div>
+                      
+                    <div class="tray">
+                        <span>관리방법</span>
+                        <div class="textArea">
+                            <textarea placeholder="오래 사용할 수 있는 팁" style="margin-top:0;"></textarea>
+                            <span class="limit">0/1000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- display none / block 으로 컨트롤 -->
+        <div id="modal" class="dim" style="display: none;">
+            <div class="modal">
+                <button class="modalClose" onclick="modalClose()"></button>
+                <p class="tit">작성중인 내용을 저장할까요?</p>
+                <p>
+                    제품의 정보를 작성중이에요. 저장하지 않고 이동할 경우 작성 중인 내용이 삭제됩니다.
+                </p>
+                <div class="btnWrap">
+                    <button class="btn-line grey">이동하기</button>
+                    <button class="btn-fill">저장하기</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 미리보기 -->
+        <div id="preview" class="dim transitionDim" style="display: none;">
+            <div class="modal offcanvas-right">
+                <div class="h3">
+                    미리보기
+                    <button class="refresh"></button>
+                    <button class="previewClose" onclick="previewClose()"></button>
+                </div>
+                <div class="view">
+
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    
+
+</body>
+</html>
