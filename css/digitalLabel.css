@@ -99,8 +99,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .newStories .cate {
   font-size: 10px;
@@ -477,8 +476,7 @@ body {
 .mainBanner .inner img {
   width: 100%;
   height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 .mainBanner .inner .pcImg {
   display: block;
@@ -592,8 +590,7 @@ body {
   height: 100%;
   top: 0;
   left: 0;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   z-index: -1;
 }
 
@@ -673,8 +670,7 @@ h4 {
   left: 0;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .pick .newBrand .imgWrap {
   position: relative;
@@ -685,8 +681,7 @@ h4 {
 .pick .newBrand .imgWrap .backCover img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .pick .newBrand .imgWrap .frontSign {
   width: 38%;
@@ -707,8 +702,7 @@ h4 {
 .pick .newBrand .imgWrap .frontSign img {
   width: 100%;
   height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 .pick .newBrand .text {
   margin-top: 121px;
@@ -774,8 +768,7 @@ h4 {
   left: 0;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .pick .newProduct .thumbImg {
   aspect-ratio: 1/1;
@@ -1207,8 +1200,7 @@ h4 {
 .mainArchive.newMainArchive .archiveSlide .newBrand .imgWrap .backCover img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .mainArchive.newMainArchive .archiveSlide .newBrand .imgWrap .frontSign {
   width: 38%;
@@ -1229,8 +1221,7 @@ h4 {
 .mainArchive.newMainArchive .archiveSlide .newBrand .imgWrap .frontSign img {
   width: 100%;
   height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 .mainArchive.newMainArchive .archiveSlide .newBrand .text {
   margin-top: 121px;
@@ -1291,8 +1282,7 @@ h4 {
   left: 0;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .mainArchive.newMainArchive .archiveSlide .newProduct .thumbImg {
   aspect-ratio: 1/1;
@@ -1429,8 +1419,7 @@ h4 {
   left: 0;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .mainArchive .thumbImg {
   margin-bottom: 20px;
@@ -1492,8 +1481,7 @@ h4 {
   left: 0;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   cursor: pointer;
 }
 
@@ -1533,8 +1521,7 @@ h4 {
   left: 0;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   cursor: pointer;
 }
 .mainStories .bodyWrap {
@@ -1901,9 +1888,6 @@ h4 {
   outline: 0;
   padding-left: 0;
 }
-.countSearch .inner .search::-moz-placeholder {
-  color: #9a9a9a;
-}
 .countSearch .inner .search::placeholder {
   color: #9a9a9a;
 }
@@ -2198,9 +2182,6 @@ h4 {
   box-sizing: border-box;
   color: var(--black);
 }
-.section-detail .styleCheck.result input::-moz-placeholder {
-  color: #656565;
-}
 .section-detail .styleCheck.result input::placeholder {
   color: #656565;
 }
@@ -2334,8 +2315,7 @@ h4 {
 .section-detail .leftNav .top .profileCh img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .section-detail .leftNav .top .profileCh {
   max-width: 120px;
@@ -2486,8 +2466,7 @@ h4 {
   left: 0;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .section-detail .container .newProduct .thumbImg {
   aspect-ratio: 1/1;
@@ -2635,8 +2614,7 @@ h4 {
 .section-detail .container .newBrand .imgWrap .backCover img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .section-detail .container .newBrand .imgWrap .frontSign {
   width: 38%;
@@ -2657,8 +2635,7 @@ h4 {
 .section-detail .container .newBrand .imgWrap .frontSign img {
   width: 100%;
   height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 .section-detail .container .newBrand .text {
   margin-top: 121px;
@@ -2702,8 +2679,7 @@ h4 {
 .section-detail .container .newBrand .imgWrap img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .section-detail .container .newBrand .imgWrap .backCover {
   width: 100%;
@@ -2786,8 +2762,7 @@ h4 {
   left: 0;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .section-detail .container .newStories .cate {
   font-size: 12px;
@@ -3122,8 +3097,7 @@ h4 {
 .section-detail .container .article .conWrap .thumb img {
   height: 50px;
   width: 50px;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 .section-detail .container .article .conWrap .thumb .category {
   font-size: 11px;
@@ -3190,8 +3164,7 @@ h4 {
 .section-detail .container .followBrand .brand img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .section-detail .container .followBrand .cate {
   font-size: 16px;
@@ -3388,8 +3361,7 @@ h4 {
   left: 0;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   cursor: pointer;
 }
 .storyCon .imgWrap {
@@ -3563,8 +3535,7 @@ h4 {
   left: 0;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   cursor: pointer;
 }
 .pageDetail .imgWrap {
@@ -3746,8 +3717,7 @@ h4 {
   left: 0;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   cursor: pointer;
 }
 .pageDetail .accodion li .flexBx .left .imgWrap {
@@ -3759,8 +3729,7 @@ h4 {
   box-sizing: border-box;
 }
 .pageDetail .accodion li .flexBx .left .imgWrap img {
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 .pageDetail .accodion li .flexBx .left .tit {
   font-size: 16px;
@@ -3934,9 +3903,6 @@ h4 {
   display: block;
   outline: none;
 }
-.pageDetail .accodion .question .inputText .textarea::-moz-placeholder {
-  color: inherit;
-}
 .pageDetail .accodion .question .inputText .textarea::placeholder {
   color: inherit;
 }
@@ -4041,9 +4007,6 @@ h4 {
   display: block;
   outline: none;
 }
-.pageDetail .accodion .review .inputText .textarea::-moz-placeholder {
-  color: inherit;
-}
 .pageDetail .accodion .review .inputText .textarea::placeholder {
   color: inherit;
 }
@@ -4093,9 +4056,6 @@ h4 {
   resize: none;
   display: block;
   outline: none;
-}
-.pageDetail .accodion .review .textarea::-moz-placeholder {
-  color: inherit;
 }
 .pageDetail .accodion .review .textarea::placeholder {
   color: inherit;
@@ -4665,9 +4625,6 @@ h4 {
   box-sizing: border-box;
   color: var(--black);
 }
-.loginForm input::-moz-placeholder {
-  color: #656565;
-}
 .loginForm input::placeholder {
   color: #656565;
 }
@@ -4687,9 +4644,6 @@ h4 {
   border: 1px solid #959595;
   height: 55px;
   font-size: 16px;
-}
-.loginForm input::-moz-placeholder {
-  color: #959595;
 }
 .loginForm input::placeholder {
   color: #959595;
@@ -4794,9 +4748,7 @@ h4 {
   padding: 0;
   box-sizing: border-box;
   margin: 0;
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  appearance: none;
 }
 .loginForm .inputWrap .radioWrap [type=radio]:checked {
   border: 8px solid #f63;
@@ -4939,8 +4891,7 @@ h4 {
 .loginForm.signupForm .profileList .profileCh img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .loginForm.signupForm .nextTime {
   display: inline-block;
@@ -5107,9 +5058,6 @@ h4 {
   font-size: 18px;
   box-sizing: border-box;
   color: var(--black);
-}
-.purchase .inner input::-moz-placeholder {
-  color: #656565;
 }
 .purchase .inner input::placeholder {
   color: #656565;
@@ -5400,9 +5348,6 @@ h4 {
   display: block;
   outline: none;
 }
-.talksDetail .question .inputText .textarea::-moz-placeholder {
-  color: inherit;
-}
 .talksDetail .question .inputText .textarea::placeholder {
   color: inherit;
 }
@@ -5531,9 +5476,6 @@ h4 {
   display: block;
   outline: none;
 }
-.talksDetail .reply .inputText .textarea::-moz-placeholder {
-  color: inherit;
-}
 .talksDetail .reply .inputText .textarea::placeholder {
   color: inherit;
 }
@@ -5597,9 +5539,6 @@ h4 {
 }
 .talksDetail .reply .inputText .textarea {
   height: 85px;
-}
-.talksDetail .reply .inputText .textarea::-moz-placeholder {
-  color: #151515;
 }
 .talksDetail .reply .inputText .textarea::placeholder {
   color: #151515;
@@ -5683,9 +5622,6 @@ h4 {
   box-sizing: border-box;
   color: var(--black);
 }
-.talksWrite input::-moz-placeholder {
-  color: #656565;
-}
 .talksWrite input::placeholder {
   color: #656565;
 }
@@ -5707,9 +5643,6 @@ h4 {
   resize: none;
   display: block;
   outline: none;
-}
-.talksWrite .textarea::-moz-placeholder {
-  color: inherit;
 }
 .talksWrite .textarea::placeholder {
   color: inherit;
@@ -5806,8 +5739,7 @@ h4 {
 .talksWrite .imgBx .img img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   cursor: pointer;
 }
 .talksWrite .imgBx .img .remove {
@@ -5834,8 +5766,7 @@ h4 {
   left: 0;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   cursor: pointer;
 }
 .storiesList .data {
@@ -5951,8 +5882,7 @@ h4 {
   left: 0;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   cursor: pointer;
 }
 .storiesDetail .top {
@@ -6219,8 +6149,7 @@ h4 {
   left: 0;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   cursor: pointer;
 }
 .about .accodion li .flexBx .left .imgWrap {
@@ -6232,8 +6161,7 @@ h4 {
   box-sizing: border-box;
 }
 .about .accodion li .flexBx .left .imgWrap img {
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 .about .accodion li .flexBx .left .tit {
   font-size: 16px;
@@ -6407,9 +6335,6 @@ h4 {
   display: block;
   outline: none;
 }
-.about .accodion .question .inputText .textarea::-moz-placeholder {
-  color: inherit;
-}
 .about .accodion .question .inputText .textarea::placeholder {
   color: inherit;
 }
@@ -6514,9 +6439,6 @@ h4 {
   display: block;
   outline: none;
 }
-.about .accodion .review .inputText .textarea::-moz-placeholder {
-  color: inherit;
-}
 .about .accodion .review .inputText .textarea::placeholder {
   color: inherit;
 }
@@ -6566,9 +6488,6 @@ h4 {
   resize: none;
   display: block;
   outline: none;
-}
-.about .accodion .review .textarea::-moz-placeholder {
-  color: inherit;
 }
 .about .accodion .review .textarea::placeholder {
   color: inherit;
@@ -6961,9 +6880,6 @@ h4 {
   box-sizing: border-box;
   color: var(--black);
 }
-.PageEdit input::-moz-placeholder {
-  color: #656565;
-}
 .PageEdit input::placeholder {
   color: #656565;
 }
@@ -6984,9 +6900,7 @@ h4 {
   padding: 0;
   box-sizing: border-box;
   margin: 0;
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  appearance: none;
 }
 .PageEdit .radioWrap [type=radio]:checked {
   border: 8px solid #f63;
@@ -7051,9 +6965,7 @@ h4 {
   padding: 0;
   box-sizing: border-box;
   margin: 0;
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  appearance: none;
 }
 .PageEdit .inputWrap .radioWrap [type=radio]:checked {
   border: 8px solid #f63;
@@ -7294,8 +7206,7 @@ h4 {
   .header.mo .mobileMenu .panel .top .profile img {
     width: 100%;
     height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
   .header.mo .mobileMenu .panel .top .nickname {
     font-size: 24px;
@@ -8567,8 +8478,7 @@ h4 {
 .chart .profileCh img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .chart .rowBarGraph {
   display: flex;
@@ -8877,8 +8787,7 @@ h4 {
   left: 0;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   z-index: -1;
 }
 .newMainStories .cover .cate {
@@ -8981,8 +8890,7 @@ h4 {
   left: 0;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .newMainStories .slide .newStories .cate {
   font-size: 10px;
@@ -9483,9 +9391,6 @@ h4 {
   box-sizing: border-box;
   color: var(--black);
 }
-.styleCheck.result input::-moz-placeholder {
-  color: #656565;
-}
 .styleCheck.result input::placeholder {
   color: #656565;
 }
@@ -9624,8 +9529,7 @@ h4 {
 .newAccodion .realCon .imgWrap img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   cursor: pointer;
 }
 .newAccodion .realCon .text .en {
@@ -10266,8 +10170,7 @@ h4 {
   left: 0;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .detailPage .centerSlide {
   position: relative;
@@ -10381,8 +10284,7 @@ h4 {
   left: 0;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .detailPage .listSection {
   margin: 80px 0;
@@ -10463,8 +10365,7 @@ h4 {
 .detailPage .listSection .listCon .imgWrap img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .detailPage .listSection .listCon .textWrap {
   flex: 1 0 0;
@@ -10591,8 +10492,7 @@ h4 {
 .detailPage .writing .imgWrap img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .detailPage .writing .cate {
   font-size: 12px;
@@ -10780,8 +10680,7 @@ h4 {
 .tipContentsWrap .cardWrap .imgWrap img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   transition: 0.5s cubic-bezier(0.32, 0.94, 0.6, 1);
   transition-delay: 0.05s;
 }
@@ -10899,8 +10798,7 @@ h4 {
 .circleThumb .item img {
   width: 100%;
   height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 @media screen and (max-width: 768px) {
   .circleThumb {
@@ -10957,10 +10855,8 @@ h4 {
 .circleModal .imgWrap img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: cover;
+  object-fit: contain;
 }
 .circleModal dl {
   display: flex;
@@ -11103,10 +10999,8 @@ h4 {
 .listGrid .imgWrap img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: cover;
+  object-fit: contain;
 }
 .listGrid .person {
   margin-bottom: 8.2px;
@@ -11252,12 +11146,15 @@ h4 {
 }
 [class^=digitalLabel-] h3 {
   font-size: 32px;
+  line-height: 1.3125;
   font-weight: bold;
   margin-bottom: 24px;
+  color: #151515;
 }
 [class^=digitalLabel-] p {
   font-size: 20px;
   font-weight: 500;
+  color: #151515;
 }
 @media screen and (max-width: 768px) {
   [class^=digitalLabel-] h3 {
@@ -11379,6 +11276,7 @@ h4 {
   font-size: 14px;
   font-weight: 500;
   color: #707070;
+  line-height: 1.42;
 }
 .digitalLabel-step .listWrap .item img {
   width: 100%;

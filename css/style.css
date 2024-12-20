@@ -48,8 +48,7 @@ button {
   bottom: 0;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 h1 {
@@ -641,8 +640,7 @@ h2 {
   left: 0;
 }
 .brandThumbList li .thumb .imgWrap img {
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 
 .itemThumbList {
@@ -1203,9 +1201,6 @@ h2 {
   text-align: left;
   color: var(--151515);
 }
-.tray .certi .docu .input::-moz-placeholder {
-  color: var(--151515);
-}
 .tray .certi .docu .input::placeholder {
   color: var(--151515);
 }
@@ -1459,9 +1454,6 @@ h2 {
 .tray input[type=text]:focus {
   outline-color: var(--151515);
 }
-.tray select::-moz-placeholder, .tray input[type=text]::-moz-placeholder {
-  color: #afafaf;
-}
 .tray select::placeholder,
 .tray input[type=text]::placeholder {
   color: #afafaf;
@@ -1582,8 +1574,7 @@ h2 {
 .tray .file .attachedFile img {
   width: 100%;
   height: 100%;
-  -o-object-fit: fill;
-     object-fit: fill;
+  object-fit: fill;
 }
 .tray .file .attachedFile .remove {
   cursor: pointer;
@@ -1849,9 +1840,6 @@ textarea {
 }
 textarea:focus {
   outline-color: var(--151515);
-}
-textarea::-moz-placeholder {
-  color: #afafaf;
 }
 textarea::placeholder {
   color: #afafaf;
@@ -2204,9 +2192,6 @@ textarea::placeholder {
   padding: 0;
   font-size: 16px;
   font-weight: 500;
-}
-.adminLogin .loginWrap .tray input::-moz-placeholder {
-  color: #707070;
 }
 .adminLogin .loginWrap .tray input::placeholder {
   color: #707070;
